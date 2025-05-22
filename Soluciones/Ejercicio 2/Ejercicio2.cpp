@@ -6,7 +6,10 @@ protected:
     string nombre;
     int edad;
 public:
-    Persona(int edad, string nombre) : edad(edad), nombre(nombre){;}
+    Persona(int edad, string nombre) : edad(edad), nombre(nombre){};
+    void a(){
+        cout << nombre << edad << endl;
+    }
 };
 
 class Empleado : protected Persona {
