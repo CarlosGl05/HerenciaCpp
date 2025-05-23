@@ -13,6 +13,6 @@ classDiagram
     class Forma{
         + virtual calcularArea() : double
     }
-    Forma --|> Cuadrado
-    Forma --|> Circulo
+    Forma <|-- Cuadrado
+    Forma <|-- Circulo
 ```
